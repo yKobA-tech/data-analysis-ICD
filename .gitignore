@@ -1,0 +1,27 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor
+.vscode/
+
+# Arquivos temporários
+*.log
+.DS_Store
+
+# Dados brutos muito grandes
+data/raw/sih/
+data/raw/bnafar/
+*.dbc
+
+# Arquivos BNAFAR gigantes
+Posicao_Estoque_*.csv
+Posicao_Estoque_*.zip
+
+# Relatórios temporários de erro
+data/**/erros_*.csv
