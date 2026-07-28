@@ -92,10 +92,11 @@ for ano in ANOS:
             columns={
                 "D1C": "codigo_municipio",
                 "D1N": "municipio",
-                "D2C": "ano",
                 "V": "populacao",
             }
         )
+        
+        df_ano["ano"] = ano
 
         colunas_obrigatorias = [
             "codigo_municipio",
